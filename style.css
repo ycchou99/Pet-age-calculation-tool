@@ -1,0 +1,61 @@
+/* 整體版面 */
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* 外框容器 */
+.container {
+  width: 340px;
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 標題 */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* 輸入欄位 */
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin: 10px 0 20px;
+  font-size: 16px;
+}
+
+/* 按鈕 */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a90e2;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
+
+/* 結果框 */
+.result-box {
+  margin-top: 20px;
+  padding: 16px;
+  background: #f1f7ff;
+  border: 1px solid #cfe0ff;
+  border-radius: 8px;
+  font-size: 16px;
+  display: none; /* 預設不顯示 */
+}
